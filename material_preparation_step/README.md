@@ -16,7 +16,7 @@ The CSV file in flight-manifest-csv folder contains the following flight-specifi
 <ul><il>• Boarding Time</il></ul>
 <ul><il>• Ticket No.</il></ul>
 
-I’ve also added columns for the following demographic details. We pretend these are the passengers who will board the above-mentioned flight. 
+I’ve also added columns for the following demographic details.  
 
 <ul><il>•	First Name</il></ul>
 <ul><il>•	Last Name</il></ul>
