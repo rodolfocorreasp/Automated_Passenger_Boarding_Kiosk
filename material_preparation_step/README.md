@@ -4,32 +4,32 @@ For the requirements step, I developed a Flight Manifest table that lists the fl
 
 The CSV file in flight-manifest-csv folder contains the following flight-specific details:
 
-<ul><il>• Carrier</il></ul>
-<ul><il>• Flight Number</il></ul>
-<ul><il>• Class</il></ul>
-<ul><il>• Flight Origin (From)</il></ul>
-<ul><il>• Destination (To)</il></ul>
-<ul><il>• Flight Date</il></ul>
-<ul><il>• Baggage</il></ul>
-<ul><il>• Seat</il></ul>
-<ul><il>• Gate Number</il></ul>
-<ul><il>• Boarding Time</il></ul>
-<ul><il>• Ticket No.</il></ul>
+- Carrier
+- Flight Number
+- Class
+- Flight Origin (From)
+- Destination (To)
+- Flight Date
+- Baggage
+- Seat
+- Gate Number
+- Boarding Time
+- Ticket No.
 
 I’ve also added columns for the following demographic details:  
 
-<ul><il>•	First Name</il></ul>
-<ul><il>•	Last Name</il></ul>
-<ul><il>•	Date of Birth</il></ul>
-<ul><il>•	Sex</il></ul>
+-	First Name
+-	Last Name
+-	Date of Birth
+-	Sex
 
 And the columns below indicating the status of the following 5 types of validation:
 
-<ul><il>1.	Passenger Name Validation (NameValidation)</il></ul>
-<ul><il>2.	Passenger Date of Birth Validation (DoBValidation)</il></ul>
-<ul><il>3.	Passenger Face Validation (PersonValidation)</il></ul>
-<ul><il>4.	Passenger Flight Details Validation (BoardingPassValidation)</il></ul>
-<ul><il>5.	Passenger carry-on baggage validate for lighter detection (LuggageValidation)</il></ul>
+1.	Passenger Name Validation (NameValidation)
+2.	Passenger Date of Birth Validation (DoBValidation)
+3.	Passenger Face Validation (PersonValidation)
+4.	Passenger Flight Details Validation (BoardingPassValidation)
+5.	Passenger carry-on baggage validate for lighter detection (LuggageValidation)
 
 In the boarding_pass_docs folder we can find sample of boarding passes for the passengers listed in the manifest file.  All boarding passes are in PDF format. They were used to develop a custom recognizer model in subsequent steps. 
 
